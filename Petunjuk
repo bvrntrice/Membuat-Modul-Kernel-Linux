@@ -1,6 +1,6 @@
-Simpan file didalam satu folder bersamaa
+Simpan file didalam satu folder bersamaan
 Jalankan perintah $make (pastikan "make" sudah terinstall (sudo apt install make))
-Install modul kernel (simple.ko) dengan perintah sudo insmod simple.ko
-Lihat modul simple apakah sudah berjalan atau belum dengan perintah lsmod
+Install modul kernel (simple.ko) dengan perintah sudo insmod simple.ko (pastikan build-essential sudah terinstall pada linux)
+Lihat modul simple apakah sudah berjalan atau belum dengan perintah lsmod (simple.ko akan terlihat dibagian paling atas lsmod)
 Jalankan perintah dmesg untuk menampilkan pesan yang terdapat pada modul
 Untuk menghapus modul, gunakan perintah sudo rmmod simple.ko
